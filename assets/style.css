@@ -583,7 +583,7 @@ section#services:before {
 
 div#inside-services {
     width: 100%;
-    max-width: 1200px;
+    max-width: 800px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -600,7 +600,7 @@ div#inside-services {
 .list-services {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
 
@@ -611,10 +611,18 @@ div#inside-services {
     padding: 40px 30px;
 }
 
+.service > i {
+    display: block;
+    margin: 0 auto 20px; 
+    text-align: center;
+    font-size: 3em;
+}
+
 .service-name {
     text-align: center;
     font-size: 1.5em;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .service-description {
@@ -622,28 +630,6 @@ div#inside-services {
     font-size: 1em;
     line-height: 1.7em;
     opacity: .8;
-    margin: 40px 0 30px ;
-}
-
-.service-value {
-    text-align: center;
-}
-
-.service-value > span.value {
-    font-size: 5em;
-    font-weight: 900;
-}
-
-.service-value > span.value-detail {
-    font-size: 0.9em;
-    font-weight: 500;
-    opacity: .9;
-}
-
-.plan-time {
-    font-size: .9em;
-    opacity: .8;
-    text-align: center;
 }
 
 
